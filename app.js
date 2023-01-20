@@ -32,3 +32,34 @@ function validateForm() {
     }
     return true;
 }
+
+// Get the slideshow container
+var slideshow = document.getElementById('slideshow');
+
+// Get the array of images
+var images = [
+    'image1.jpg',
+    'image2.jpg',
+    'image3.jpg',
+    'image4.jpg'
+];
+
+// Set the starting index
+var currentIndex = 0;
+
+// Show the first image
+slideshow.style.backgroundImage = 'url(' + images[currentIndex] + ')';
+
+// Set the interval for the slideshow
+setInterval(function() {
+    // Increment the index
+    currentIndex++;
+
+    // If the index is greater than the number of images, start over
+    if (currentIndex >= images.length) {
+        currentIndex = 0;
+    }
+
+    // Change the background image of the slideshow container
+    slideshow.style.backgroundImage = 'url(' + images[currentIndex] + ')';
+}, 3000);
