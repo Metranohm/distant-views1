@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #F5A623;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #F5A623;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #F5A623;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
