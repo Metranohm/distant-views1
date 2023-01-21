@@ -3,12 +3,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #2B193D;
+  background-color: #301A4B;
 }
 
 /* Header Styles */
 header {
-  background-color: #484D6D;
+  background-color: #6DB1BF;
   text-align: center;
   padding: 20px;
 }
@@ -19,7 +19,6 @@ header h1 {
   letter-spacing: 2px;
 }
 
-/* Navigation Styles */
 nav {
   background-color: #4B8F8C;
   text-align: center;
@@ -33,7 +32,7 @@ nav ul {
 }
 
 #about {
-  background-color: #C5979D;
+  background-color: #f5c9ce;
   text-align: center;
   padding: 20px;
   max-width: 700px;
@@ -41,12 +40,12 @@ nav ul {
 }
 
 .location {
-  background-color: #C5979D;
+  background-color: #f5c9ce;
   text-align: center;
   padding: 20px;
   max-width: 700px;
   margin: 0 auto;
-  border-top: #2B193D 25px solid;
+  border-top: #301A4B 25px solid;
 }
 
 .logo {
@@ -56,19 +55,19 @@ nav ul {
 }
 
 #contact {
-  background-color: #C5979D;
+  background-color: #f5c9ce;
   text-align: center;
   padding: 20px;
   max-width: 700px;
   margin: 0 auto;
-  border-top: #2B193D 25px solid;
+  border-top: #301A4B 25px solid;
 }
 
 #rooms {
-  background-color: #C5979D;
+  background-color: #f5c9ce;
   text-align: center;
   padding: 20px;
-  border-top: #2B193D 25px solid;
+  border-top: #301A4B 25px solid;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -86,7 +85,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #2B193D;
+  color: #301A4B;
   border: 1px dotted white;
   text-decoration: dotted;
   padding: 5px;
@@ -105,7 +104,7 @@ section h2 {
 
 /* Footer Styles */
 footer {
-  background-color: #2B193D;
+  background-color: #301A4B;
   text-align: center;
   padding: 10px;
   color: white;
