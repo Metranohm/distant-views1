@@ -31,6 +31,24 @@ nav ul {
   padding: 0;
 }
 
+#about {
+  background-color: #F5A623;
+  text-align: center;
+  padding: 20px;
+}
+
+.location {
+  background-color: #F5A623;
+  text-align: center;
+  padding: 20px;
+}
+
+#rooms {
+  background-color: #F5A623;
+  text-align: center;
+  padding: 20px;
+}
+
 nav li {
   display: inline-block;
   margin: 0 10px;
