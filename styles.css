@@ -35,6 +35,12 @@ nav ul {
   max-width: 500px;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .about-img {
   max-width: 700px;
   max-height: 500px;
